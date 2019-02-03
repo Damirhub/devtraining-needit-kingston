@@ -11,7 +11,6 @@
         <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
 
 	// Add your code here
-	
 	// If the source data does not have a u_requested_for_email field, 
 	// create the target email address from the Requested for value.  Email addresses 
 	// have the format firstname.lastname@example.com.  Convert the u_requested_for 
@@ -25,17 +24,17 @@
 })(source, target, map, log, action==="update");]]></script>
         <source_table>x_58872_needit_historic_needit_data</source_table>
         <sys_class_name>sys_transform_map</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-31 18:41:08</sys_created_on>
-        <sys_id>95951ad6db13230064889fd2ca96193a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-02-03 18:36:42</sys_created_on>
+        <sys_id>5651fd1fdbd7230064889fd2ca961988</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Import Historic NeedIt Data</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_transform_map_95951ad6db13230064889fd2ca96193a</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-31 19:04:06</sys_updated_on>
+        <sys_update_name>sys_transform_map_5651fd1fdbd7230064889fd2ca961988</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-02-03 19:37:33</sys_updated_on>
         <target_table>x_58872_needit_needit</target_table>
     </sys_transform_map>
 </record_update>
